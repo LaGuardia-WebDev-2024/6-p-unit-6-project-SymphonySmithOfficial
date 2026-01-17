@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(159, 185, 237,);
 }
 
 
@@ -11,9 +11,21 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+ //roof
+ fill(178, 190, 209)
+triangle(195, 10, 5, 95, 395, 95);
 
-  
+//front
+fill(225, 231, 240)
+rect(50,95,300,200);
+
+//window
+ellipse(193,57, 50, 50)
+
+//door
+rect(157, 195, 75, 100);
+  fill(240, 146, 223)
+  ellipse(167, 250, 15,15)
 
 }
 
@@ -51,5 +63,10 @@ void keyPressed(){
     fillG = random(100,255);
     fillB = 0;
   }
+//roof
+
+
+
+
 }
 
